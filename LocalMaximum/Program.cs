@@ -21,7 +21,7 @@
 
             if (numbers[firstIndex] > numbers[firstIndex + 1])
             {
-                Console.Write($"{numbers[0]} ");
+                Console.Write($"{numbers[firstIndex]} ");
             }
 
             for (int i = 1; i < lastIndex; i++)
@@ -34,7 +34,7 @@
 
             if (numbers[lastIndex] > numbers[lastIndex - 1])
             {
-                Console.Write($"{numbers[numbers.Length - 1]} ");
+                Console.Write($"{numbers[lastIndex]} ");
             }
 
             Console.ReadKey();
